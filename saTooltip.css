@@ -1,0 +1,22 @@
+.saTooltip{position:absolute;z-index:999999}
+.saTooltip_text{
+	position:relative;
+	z-index:999999;
+	border:1px solid #ccc;
+	background:#e6e6e6;
+	width:auto;
+	text-align:center;
+	padding:4px;
+	border-radius:2px;
+	font-size:21px;
+	color:#333;
+}
+.saTooltip_text:after,.saTooltip:before{top:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}.saTooltip_text:after{border-color:rgba(230,230,230,0);border-top-color:#e6e6e6;border-width:8px;margin-left:-8px}.saTooltip_text:before{border-color:rgba(230,230,230,0);border-top-color:#e6e6e6;border-width:17px;margin-left:-17px}
+.sa_bounce_animation{position:relative;top:0;-webkit-animation:sa_bounce .5s;animation:sa_bounce .5s}
+.sa_fadeIn_animation{position:relative;top:0;-webkit-animation:sa_fadeIn .5s;animation:sa_fadeIn .5s}
+@keyframes sa_bounce{0%{top:-105px}25%{top:0}50%{top:-10px}%100{top:0}}
+@-webkit-keyframes sa_bounce{0%{top:-105px}25%{top:0}50%{top:-10px}%100{top:0}}
+@-o-keyframes sa_bounce{0%{top:-105px}25%{top:0}50%{top:-10px}%100{top:0}}
+@keyframes sa_fadeIn{0%{opacity: 0}%100{opacity:1}}
+@-webkit-keyframes sa_fadeIn{0%{opacity: 0}%100{opacity:1}}
+@-o-keyframes sa_fadeIn{0%{opacity: 0}%100{opacity:1}}
